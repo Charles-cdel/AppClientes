@@ -1,7 +1,10 @@
-﻿namespace AppClientes;
+﻿using Repositorio;
+
+namespace AppClientes;
 
 class Program
 {
+    static ClienteRepositorio _clienteRepositorio = new ClienteRepositorio();
     static void Main(string[] args)
     {
         while (true)
